@@ -77,3 +77,16 @@ section {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+/* About Section */
+.about-image {
+    border-radius: 100px 0px 100px 0px;
+}
+
+.orange-line {
+    background-color: orangered;
+    height: 2px;
+    width: 6rem;
+    display: inline-block;
+    margin-bottom: 1rem;
+}
