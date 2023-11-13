@@ -1,0 +1,79 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans&family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+
+/* Base Style */
+body {
+    font-family: "Rubik", sans-serif;
+    color: #777;
+    line-height: 1.7;
+}
+
+header {
+    padding-top: 5rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 600;
+    color: #222;
+}
+
+a {
+    font-weight: 600;
+    color: #222;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+a:hover {
+    color: orangered !important;
+}
+
+section {
+    padding: 5rem 0;
+}
+
+/* Button */
+.btn {
+    border-radius: 100px;
+    padding: 1rem 2rem;
+}
+
+.btn-custom {
+    border-color: orangered;
+    background-color: orangered;
+    color: #fff;
+    font-weight: 500;
+}
+
+.btn-custom:hover {
+    background-color: orange;
+    border-color: orange;
+    color: #fff !important;
+}
+
+/* Hero */
+.slide-1 {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.75), transparent),
+        url(../Assets/images/slider-image-1.jpg);
+}
+
+.slide-2 {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.75), transparent),
+        url(../Assets/images/slider-image-2.png);
+}
+
+.slide-3 {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.75), transparent),
+        url(../Assets/images/slider-image-3.jpg);
+}
+
+.bg-cover {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
