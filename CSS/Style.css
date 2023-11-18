@@ -59,17 +59,17 @@ section {
 /* Hero */
 .slide-1 {
     background: linear-gradient(to top, rgba(0, 0, 0, 0.75), transparent),
-        url(../Assets/images/slider-image-1.jpg);
+        url(../assets/images/slider-image-1.jpg);
 }
 
 .slide-2 {
     background: linear-gradient(to top, rgba(0, 0, 0, 0.75), transparent),
-        url(../Assets/images/slider-image-2.png);
+        url(../assets/images/slider-image-2.png);
 }
 
 .slide-3 {
     background: linear-gradient(to top, rgba(0, 0, 0, 0.75), transparent),
-        url(../Assets/images/slider-image-3.jpg);
+        url(../assets/images/slider-image-3.jpg);
 }
 
 .bg-cover {
@@ -111,7 +111,7 @@ section {
 
 /* Features Section */
 .features {
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.75), transparent), url(../Assets/images/slider-image-1.jpg);
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.75), transparent), url(../assets/images/slider-image-1.jpg);
 }
 
 .features-icon {
